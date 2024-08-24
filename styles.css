@@ -1,0 +1,118 @@
+body {
+    font-family: "Roboto", Sans-serif;
+    background-color: #1E5032;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #1E5032;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #1E5032;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #1E5032;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    padding: 12px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #245032;
+    background-color: #DCB428;
+    border: 1px solid #245032;
+    cursor: pointer;
+}
+
+button#resetButton {
+    background-color: #FF5733; /* Cor diferente para o botão "Limpar" */
+}
+
+button:hover {
+    background-color: #C6A324;
+}
+
+button#resetButton:hover {
+    background-color: #FF704D; /* Cor diferente no hover do botão "Limpar" */
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #1E5032;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    label, input, button {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+}
