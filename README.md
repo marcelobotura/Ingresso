@@ -1,6 +1,6 @@
 # Verificador de Ingressos
 
-Bem-vindo ao **Verificador de Ingressos**, um sistema simples e intuitivo que ajuda a determinar se uma pessoa deve pagar o valor integral do ingresso ou se tem direito a meia-entrada. 
+Bem-vindo ao [**Acessar o Check-in Ingressos**](https://marcelobotura.github.io/Ingresso/), um sistema simples e intuitivo que ajuda a determinar se uma pessoa deve pagar o valor integral do ingresso ou se tem direito a meia-entrada. 
 
 ### Funcionalidades Principais:
 - **Crianças:** Verifica se a criança tem direito à entrada gratuita ou se deve pagar o ingresso inteiro.
@@ -15,4 +15,4 @@ O sistema é fácil de usar e oferece a opção de inserir a data de nascimento 
 
 Você pode testar o sistema agora mesmo clicando no link abaixo:
 
-[**Acessar o Verificador de Ingressos**](https://marcelobotura.github.io/Ingresso/)
+[**Acessar o Check-in Ingressos**](https://marcelobotura.github.io/Ingresso/)
