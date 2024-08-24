@@ -77,26 +77,21 @@ input {
     justify-content: space-between;
 }
 
-button {
-    width: 48%;
+#resetButton {
+    width: 100%;
     padding: 12px;
     font-family: "Roboto", Sans-serif;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
-    color: #245032;
-    background-color: #DCB428;
-    border: 1px solid #245032;
+    color: #1E5032;
+    background-color: #FFDD00;
+    border: 1px solid #1E5032;
     cursor: pointer;
 }
 
-#resetButton {
-    background-color: #B0B0B0;
-    color: #FFFFFF;
-}
-
-button:hover {
-    background-color: #C6A324;
+#resetButton:hover {
+    background-color: #E6C700;
 }
 
 #result {
@@ -112,12 +107,13 @@ button:hover {
         font-size: 20px;
     }
 
-    label, input, button {
+    label, input {
         font-size: 14px;
     }
 
-    button {
+    #resetButton {
         padding: 10px;
+        font-size: 12px;
     }
 
     #result {
@@ -130,15 +126,16 @@ button:hover {
         font-size: 18px;
     }
 
-    label, input, button {
+    label, input {
         font-size: 12px;
     }
 
-    button {
+    #resetButton {
         padding: 8px;
+        font-size: 10px;
     }
 
     #result {
         font-size: 14px;
-    }  
+    }
 }

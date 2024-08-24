@@ -15,10 +15,9 @@
             <input type="date" id="birthdate" name="birthdate" oninput="autoCalculateAge()">
             
             <label for="age">Ou Idade:</label>
-            <input type="number" id="age" name="age" min="0" oninput="toggleResetButton()">
+            <input type="number" id="age" name="age" min="0" oninput="autoCalculateBirthdate()">
 
             <div class="button-group">
-                <button type="button" onclick="checkTicket()">Verificar</button>
                 <button type="button" id="resetButton" style="display:none;" onclick="resetForm()">Limpar</button>
             </div>
         </form>
