@@ -9,7 +9,7 @@ Bem-vindo ao **Verificador de Ingressos**, um sistema simples e intuitivo que aj
 
 O sistema é fácil de usar e oferece a opção de inserir a data de nascimento ou a idade diretamente. Além disso, um botão de "Limpar" está disponível para reiniciar o processo sempre que necessário.
 
----
+----
 
 ### Acesse o Sistema
 

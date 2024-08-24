@@ -55,4 +55,5 @@ function toggleResetButton() {
     } else {
         resetButton.style.display = "none";
     }
+    
 }
