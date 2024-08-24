@@ -30,13 +30,11 @@ function checkTicket() {
         result.innerHTML += "<p><strong>Criança:</strong> Paga ingresso inteiro (7 anos completos).</p>";
     }
 
-    if (age < 16) {
+    if (age < 18) {
         result.innerHTML += "<p><strong>Morador:</strong> Comprovante dos pais necessário (até 17 anos).</p>";
-    } else if (age >= 16 && age <= 56) {
-        result.innerHTML += "<p><strong>Morador:</strong> Comprovante pessoal necessário.</p>";
-    } else if (age >= 57 && age < 60) {
-        result.innerHTML += "<p><strong>Idoso:</strong> Paga ingresso normal.</p>";
-    } else if (age === 60) {
+    } else if (age >= 18 && age < 60) {
+        result.innerHTML += "<p><strong>Morador:</strong> Comprovante pessoal necessário (dos 18 aos 59 anos).</p>";
+    } else if (age >= 60) {
         result.innerHTML += "<p><strong>Idoso:</strong> Comprovante dos filhos pode ser utilizado (60 anos completos).</p>";
     }
 }

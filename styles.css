@@ -3,10 +3,41 @@ body {
     background-color: #1E5032;
     color: #FFFFFF;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+}
+
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+        position: static; /* Container centralizado */
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+    }
+
+    .container {
+        position: relative;
+        top: 20px;
+        width: 90%;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
 }
 
 .container {
@@ -14,8 +45,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 400px;
     box-sizing: border-box;
 }
 
@@ -61,16 +90,13 @@ button {
     cursor: pointer;
 }
 
-button#resetButton {
-    background-color: #FF5733; /* Cor diferente para o botão "Limpar" */
+#resetButton {
+    background-color: #B0B0B0;
+    color: #FFFFFF;
 }
 
 button:hover {
     background-color: #C6A324;
-}
-
-button#resetButton:hover {
-    background-color: #FF704D; /* Cor diferente no hover do botão "Limpar" */
 }
 
 #result {
@@ -80,7 +106,7 @@ button#resetButton:hover {
     color: #1E5032;
 }
 
-/* Responsividade */
+/* Responsividade adicional */
 @media (max-width: 768px) {
     h1 {
         font-size: 20px;
